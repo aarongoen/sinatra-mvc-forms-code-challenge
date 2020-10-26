@@ -7,7 +7,8 @@ class TeasController < ApplicationController
   end
 
   # CREATE ROUTE => POST: /teas
-  post "/teas" do
+  post "/teas" do 
+    puts params
     redirect "/teas"
   end
 
